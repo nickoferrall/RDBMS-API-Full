@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "express": "^4.16.4",
     "helmet": "^3.15.0",
     "knex": "^0.16.3",
+    "nodemon": "^1.18.9",
     "sqlite3": "^4.0.6"
   },
   "name": "RDBMS-API-Full",
@@ -10,7 +12,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
